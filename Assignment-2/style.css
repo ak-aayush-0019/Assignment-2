@@ -1,0 +1,18 @@
+ul li{
+    list-style: none;
+    border:1px solid #ccc;
+    font-variant:small-caps ;
+}
+li::before
+{
+    content:'\1F4DE';
+}
+div h2
+{
+    border:2px groove purple;
+    background-color: #fff0f3;
+   padding-left: 20px;
+   position: sticky;
+   top:-1px;
+    font-family: 'Tourney', cursive;
+}
